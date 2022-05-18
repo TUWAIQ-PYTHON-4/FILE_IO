@@ -10,8 +10,8 @@
 
 from tkinter.messagebox import YES
 
-
-print("WELCOME YOU IN To-Do PROGERAM :).. ")
+print("")
+print("WELCOME YOU IN To-Do PROGERAM :)")
 print("")
 
 
@@ -19,9 +19,9 @@ answered=False
 while (not answered):
     ask=input("do you want to add a new To-Do item?\n *YES \n *NO \n *EXIT\n")
     if ask.lower()=="yes":
-        answer=input("ask the user to type in his new To-Do item:")
+        answer=input("Enter in his new To-Do item:")
         file=open("to_do.txt","a+",encoding="utf-8")
-        file.write(answer)
+        file.write(answer + "\n")
         file.close()
     elif ask.lower()=="no":
         answer=input("do you want to list your To-Do items:")
