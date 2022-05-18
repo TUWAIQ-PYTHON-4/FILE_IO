@@ -23,6 +23,7 @@ def to_do_list():
               
 
         elif ask_user == "exit":
+            file.close()
             print("\n thank you for using the To-Do program, come back again soon")
             break
 to_do_list()
