@@ -11,6 +11,7 @@ while result!="exit":
         if result=='y':
             file= open("to_do.txt",'r',encoding="utf-8")
             print(file.read())
+            file.close()
 else:
     print("thank you for using the To-Do program, come back again soon")
 
