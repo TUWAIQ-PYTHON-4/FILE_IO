@@ -1,0 +1,14 @@
+read
+read
+e
+e
+e
+
+e
+e
+e
+
+e
+read
+d
+& C:/Users/Faisal/AppData/Local/Programs/Python/Python310/python.exe c:/Users/Faisal/Desktop/python_bootcamp/py4/FILE_IO/FILE_IO.py
